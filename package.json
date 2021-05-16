@@ -1,0 +1,27 @@
+{
+  "name": "rugpull-rollup",
+  "version": "0.0.1",
+  "description": "A simple rollup dapp",
+  "main": "src/index.mjs",
+  "scripts": {
+    "ethnode": "ethnode --allocate=0xDCAE736957A901f7F989ab67d1579e569EfaBD40 --chainid 1",
+    "solc:compile": "solc -o dist/ --bin --abi src/contracts/RugPullIndex.sol",
+    "test": "ava"
+  },
+  "keywords": [
+    "rollup",
+    "ethereum",
+    "web3",
+    "scalability",
+    "rugpull"
+  ],
+  "license": "GPL-3.0-only",
+  "devDependencies": {
+    "ava": "3.15.0"
+  },
+  "dependencies": {
+    "cross-fetch": "3.1.4",
+    "eth-crypto": "1.9.0",
+    "solidity-cli": "1.0.3"
+  }
+}
