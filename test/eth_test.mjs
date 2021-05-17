@@ -42,4 +42,5 @@ test("if deploy works", async t => {
 
   const url = "http://127.0.0.1:8545";
   const res = await send(url, signed);
+  console.log(await res.json());
 });

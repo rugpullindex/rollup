@@ -33,4 +33,6 @@ export async function send(url, tx) {
     },
     body: JSON.stringify(body)
   });
+
+  return res;
 }
