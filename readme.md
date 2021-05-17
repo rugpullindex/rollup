@@ -2,5 +2,5 @@
 
 ```bash
 $ npm i -g ethnode
-$ brew install solidity@5
+$ brew install solidity@6
 ```
